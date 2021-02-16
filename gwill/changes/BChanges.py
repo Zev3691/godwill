@@ -9,7 +9,7 @@ seed_list = []
 if len(sys.argv) > 1:
     for seed in sys.argv[1:]:
         seed_list.append(seed)
-    print('the seed is: %s ',seed_list)
+    # print('the seed is: %s ',seed_list)
 
 def godwill():
     bc = BChanges()
@@ -20,8 +20,8 @@ def godwill():
         yoyo.append(bc.yoyo(0))
     gwill = "i_"+str(int(yoyo[0])&1)+str(int(yoyo[1])&1)+str(int(yoyo[2])&1)+str(int(yoyo[3])&1)+str(int(yoyo[4])&1)+str(int(yoyo[5])&1)
     gwill_name = gua_ci[gwill]
-    print(
-        "##########################################################################################################################################")
+    # print(
+    #     "##########################################################################################################################################")
 
     print(gwill_name)
     gwill_solution = solution_dict[gwill]
@@ -35,8 +35,8 @@ def godwill():
     # finally:
     #     if f:
     #         f.close()
-    print(
-        "##########################################################################################################################################")
+    # print(
+    #     "##########################################################################################################################################")
 
 class BChanges(object):
 
